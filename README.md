@@ -27,9 +27,10 @@ LIMIT $__limit
 ```
 > Where `$__limit` - is a special macros replaced with `LIMIT N, M` construction.
 >> N = (current_page-1) * rows_per_page
+
 >> M = rows_per_page
 * Set `Format as` to `Table` option
-* Go to `Options` tab and set params `Rows per page`=10 and `Limit`=50:
+* Go to `Options` tab and set params `Rows per page=10` and `Limit=50`:
 ![options](https://user-images.githubusercontent.com/2902918/33119688-6dfeaf8a-cf78-11e7-86e8-9b147a406efc.png)
 * Save dashboard and reload page. Try to navigate pages
 > Try to open Browser's Developer Tools and check sent requests
