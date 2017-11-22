@@ -1,0 +1,36 @@
+{
+    "name": "vertamedia-chtable",
+    "version": "1.0.0",
+    "description": "Table plugin for ClickHouse",
+    "scripts": {
+        "build": "grunt",
+        "test": "./node_modules/karma/bin/karma start"
+    },
+    "author": "Vertamedia",
+    "license": "MIT",
+    "dependencies": {
+        "babel-plugin-transform-es2015-for-of": "^6.6.0",
+        "babel-plugin-transform-es2015-modules-systemjs": "^6.24.1",
+        "babel-preset-es2015": "^6.24.1",
+        "lodash": "^4.17.4",
+        "moment": "^2.18.1",
+        "q": "^1.5.1",
+        "brace": "^0.10.0",
+        "systemjs": "^0.19.47"
+    },
+    "devDependencies": {
+        "babel": "^6.23.0",
+        "grunt-babel": "~6.0.0",
+        "grunt-systemjs-builder": "^1.0.0",
+        "@types/lodash": "^4.14.83",
+        "grafana-sdk-mocks": "github:hagen1778/grafana-sdk-mocks",
+        "grunt": "^1.0.1",
+        "grunt-contrib-clean": "^1.1.0",
+        "grunt-contrib-copy": "^1.0.0",
+        "grunt-contrib-watch": "^1.0.0",
+        "grunt-typescript": "^0.8.0",
+        "load-grunt-tasks": "3.5.2",
+        "plugin-typescript": "^7.1.1",
+        "systemjs-plugin-css": "^0.1.35"
+    }
+}
